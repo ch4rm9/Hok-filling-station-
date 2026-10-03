@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102749">
+  <meta name="description" content="HOK Filling Station Management System">
+  <title>HOK FILLING STATION</title>
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div id="app"><div class="boot-screen"><div class="brand-mark">H</div><span>HOK FILLING STATION</span><span class="boot-spinner"></span></div></div>
+  <div id="toast-stack" aria-live="polite" aria-atomic="true"></div>
+  <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+</body>
+</html>
